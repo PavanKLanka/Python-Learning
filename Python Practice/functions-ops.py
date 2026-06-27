@@ -1,17 +1,32 @@
-tom =[1,2,3,4,5,6,7,8,9]
-joe=[100,200]
+def sum_of_numbers(a, b):
+       print(a)
+       print(b)
+       return a + b
+# Positional Arguments
+# result = sum_of_numbers(10, 20)
+# print(result)
 
-def fun_get_total(exp):
-    total_amount = 0
-    for item in exp:
-        total_amount = total_amount + item
-    return total_amount
+# Named Arguments
+# result = sum_of_numbers(b=10, a= 20)
+# print(result)
 
-total_of_tom = fun_get_total(tom)
-print(total_of_tom)
-print("#*************************************")
-total_of_joe = fun_get_total(joe)
-print(total_of_joe)
+
+# tom =[1,2,3,4,5,6,7,8,9]
+# joe=[100,200]
+#
+# def fun_get_total(exp):
+#     total_amount = 0
+#     for item in exp:
+#         total_amount = total_amount + item
+#     return total_amount
+#
+# total_of_tom = fun_get_total(tom)
+# print(total_of_tom)
+# print("#*************************************")
+# total_of_joe = fun_get_total(joe)
+# print(total_of_joe)
+#
+
 
 
 # total=0
