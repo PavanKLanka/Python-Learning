@@ -1,0 +1,32 @@
+tom =[1,2,3,4,5,6,7,8,9]
+joe=[100,200]
+
+def fun_get_total(exp):
+    total_amount = 0
+    for item in exp:
+        total_amount = total_amount + item
+    return total_amount
+
+total_of_tom = fun_get_total(tom)
+print(total_of_tom)
+print("#*************************************")
+total_of_joe = fun_get_total(joe)
+print(total_of_joe)
+
+
+# total=0
+# for item in tom:
+#     total+=item
+#     print(total)
+#
+# total=0
+# for item in joe:
+#     total+=item
+#     print(total)
+
+
+
+
+
+
+
