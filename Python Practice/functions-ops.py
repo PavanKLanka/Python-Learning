@@ -1,7 +1,52 @@
-def sum_of_numbers(a, b):
+#Documentation  Strings
+total=0
+def sum_of_numbers(a, b=300):
+       """
+       This is the sum of two numbers...
+       :param a:
+       :param b:
+       :return:
+       """
        print(a)
        print(b)
-       return a + b
+       # Local Variable
+       total = (a + b)
+       print("From inside", total)
+       return  total
+
+n = sum_of_numbers(500,500)
+print("From Outside",total)
+
+#
+# #Default Arguments
+# total=0
+# def sum_of_numbers(a, b=300):
+#        print(a)
+#        print(b)
+#        # Local Variable
+#        total = (a + b)
+#        print("From inside", total)
+#        return  total
+#
+# n = sum_of_numbers(500,500)
+# print("From Outside",total)
+
+# #Global Variable
+# total=0
+# def sum_of_numbers(a, b):
+#        print(a)
+#        print(b)
+#        # Local Variable
+#        total = (a + b)
+#        print("From inside", total)
+#        return  total
+#
+# n = sum_of_numbers(10,20)
+# print("From Outside",total)
+
+
+
+
 # Positional Arguments
 # result = sum_of_numbers(10, 20)
 # print(result)
